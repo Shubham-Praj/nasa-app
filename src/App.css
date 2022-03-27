@@ -1,4 +1,46 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
 }
 
+
+.svg-div {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  overflow: hidden;
+}
+
+svg{
+  width: 100%;
+  background-repeat: repeat no-repeat;
+  overflow: hidden;
+}
+
+.wave-div-wrapper{
+  display: flex;
+  width: 100%;
+}
+
+
+
+.title{
+  margin: 0px 5px;
+  margin-left: 8%;
+  color: white;
+}
+
+.header-outer-div{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0%;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-div{
+  margin-right: 8%;
+}
