@@ -2,7 +2,6 @@ body {
   margin: 0px;
 }
 
-
 .svg-div {
   width: 100%;
   height: auto;
@@ -12,35 +11,54 @@ body {
   overflow: hidden;
 }
 
-svg{
+svg {
   width: 100%;
   background-repeat: repeat no-repeat;
   overflow: hidden;
 }
 
-.wave-div-wrapper{
+.wave-div-wrapper {
   display: flex;
   width: 100%;
 }
 
-
-
-.title{
+.title {
   margin: 0px 5px;
   margin-left: 8%;
   color: white;
 }
 
-.header-outer-div{
+.header-outer-div {
   position: absolute;
   display: flex;
   flex-direction: row;
-  margin: 2% 0%;
+  margin: 4% 0%;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-.search-div{
+.search-div {
   margin-right: 8%;
+  display: flex;
+}
+
+.date-input {
+  height: 6vh;
+  margin-right: 1vw;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.search-button{
+  width: 10vw;
+}
+
+/* Content CSS Styling */
+.content-main-div{
+  margin-top: 274px;
+  position: absolute;
+  width: 100%;
+  border: 1px solid;
 }
