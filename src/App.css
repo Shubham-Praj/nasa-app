@@ -51,14 +51,56 @@ svg {
   padding: 4px 10px;
 }
 
-.search-button{
+.search-button {
   width: 10vw;
 }
 
 /* Content CSS Styling */
-.content-main-div{
-  margin-top: 274px;
+.content-main-div {
+  display: flex;
+  margin: 180px 8% 0px 8%;
   position: absolute;
-  width: 100%;
-  border: 1px solid;
+  width: 85%;
+  background-color: white;
+  border-radius: 5px;
+  height: 60%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Data section styling */
+.content-data-div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.picture-title {
+  display: flex;
+  color: black;
+  margin: 2% 0%;
+}
+
+.explanation {
+  height: 100%;
+  overflow: auto;
+}
+
+/* Image Section Styling */
+.content-image-div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.image {
+  display: flex;
+  height: 80%;
+  margin: 2% 0%;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
 }
