@@ -94,13 +94,20 @@ svg {
   margin: 2%;
 }
 
-.image {
+.image-div{
   display: flex;
   height: 80%;
   margin: 2% 0%;
 }
 
-.author {
+.image{
+  width : 100% ;
+  height : 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.author-div {
   display: flex;
   justify-content: flex-end;
 }
