@@ -23,7 +23,7 @@ function App() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Background />
-      <Header />
+      <Header getApodData={getApodData} />
       <ContentDiv data={apodData} />
     </div>
   );
