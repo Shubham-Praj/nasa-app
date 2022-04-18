@@ -5,11 +5,19 @@ import { Button } from "react-bootstrap";
 function Header({ getApodData }) {
   const [date, setdate] = useState();
 
-  async function showDate(seletedDate) {
-    setdate(seletedDate);
+  var minDate = new Date("02-01-2020");
+
+  async function dateValidator(date) {
+    console.log(date);
+      setdate(date);
+
+    // if (date < "2020-01-01") {
+    //   console.log(date);
+    // }
   }
 
   async function getData() {
+    console.log(minDate);
     getApodData(date);
   }
 
@@ -21,9 +29,10 @@ function Header({ getApodData }) {
           className="date-input"
           type="date"
           onChange={(e) => {
-            showDate(e.target.value);
+            dateValidator(e.target.value);
           }}
         />
+
         <Button className="search-button" variant="danger" onClick={getData}>
           Search
         </Button>
