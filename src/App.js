@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    getApodData("2017-01-02");
+    getApodData("2022-04-20");
   }, []);
 
   return (
@@ -25,6 +25,7 @@ function App() {
       <Background />
       <Header getApodData={getApodData} />
       <ContentDiv data={apodData} />
+     
     </div>
   );
 }
